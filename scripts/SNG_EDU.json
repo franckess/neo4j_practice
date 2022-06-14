@@ -1,0 +1,905 @@
+{
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "background-image": "",
+    "background-size": "100%",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": -248.39873146173656,
+        "y": 50
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Anil Kumar"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": -647.2690863579476,
+        "y": 487.50000000000006
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Country"
+      ],
+      "properties": {
+        "country": "Malaysia"
+      }
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": 41.15352081364303,
+        "y": 400.31018717426656
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Institution"
+      ],
+      "properties": {
+        "Institiution_Name": "Raika Primary School"
+      }
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": 543.2412772627647,
+        "y": -693.3084605450069
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Course"
+      ],
+      "properties": {
+        "Course_Name": "-",
+        "from_date": "1986",
+        "to_date": "1987\r"
+      }
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": -248.39873146173656,
+        "y": 175
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Anil Kumar"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": 41.15352081364303,
+        "y": 525.3101871742665
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Institution"
+      ],
+      "properties": {
+        "Institiution_Name": "Baranagar Middle School"
+      }
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": 543.2412772627647,
+        "y": -693.3084605450069
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Course"
+      ],
+      "properties": {
+        "Course_Name": "All India Secondary School Examination",
+        "from_date": "1984",
+        "to_date": "1985\r"
+      }
+    },
+    {
+      "id": "n12",
+      "position": {
+        "x": -248.39873146173656,
+        "y": 300
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Anil Kumar"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n14",
+      "position": {
+        "x": 41.15352081364303,
+        "y": 650.3101871742665
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Institution"
+      ],
+      "properties": {
+        "Institiution_Name": "St George’s Junior High School"
+      }
+    },
+    {
+      "id": "n18",
+      "position": {
+        "x": -248.39873146173656,
+        "y": 425
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Anil Kumar"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n20",
+      "position": {
+        "x": 41.15352081364303,
+        "y": 775.3101871742665
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Institution"
+      ],
+      "properties": {
+        "Institiution_Name": "St George’s Senior High School"
+      }
+    },
+    {
+      "id": "n21",
+      "position": {
+        "x": 543.2412772627647,
+        "y": -443.30846054500694
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Course"
+      ],
+      "properties": {
+        "Course_Name": "All India Senior School Certificate Examination",
+        "from_date": "1988",
+        "to_date": "1989\r"
+      }
+    },
+    {
+      "id": "n24",
+      "position": {
+        "x": -248.39873146173656,
+        "y": 550
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Anil Kumar"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n25",
+      "position": {
+        "x": -647.2690863579476,
+        "y": 1058.9285714285713
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Country"
+      ],
+      "properties": {
+        "country": "Vietnam"
+      }
+    },
+    {
+      "id": "n26",
+      "position": {
+        "x": 41.15352081364303,
+        "y": 1400.310187174266
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Institution"
+      ],
+      "properties": {
+        "Institiution_Name": "Smart National University of Vietnam"
+      }
+    },
+    {
+      "id": "n27",
+      "position": {
+        "x": 543.2412772627647,
+        "y": 181.6915394549933
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Course"
+      ],
+      "properties": {
+        "Course_Name": "Bachelor of Business Administration",
+        "from_date": "1992",
+        "to_date": "1995"
+      }
+    },
+    {
+      "id": "n30",
+      "position": {
+        "x": -248.39873146173656,
+        "y": 675
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Alice Gan"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n32",
+      "position": {
+        "x": 41.15352081364303,
+        "y": 1025.3101871742665
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Institution"
+      ],
+      "properties": {
+        "Institiution_Name": "Sekolah Rendah Kebangsaan Peringgit"
+      }
+    },
+    {
+      "id": "n33",
+      "position": {
+        "x": 543.2412772627647,
+        "y": -193.30846054500705
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Course"
+      ],
+      "properties": {
+        "Course_Name": "Ujian Percapaian Sekolah Rendah",
+        "from_date": "1978",
+        "to_date": "1983\r"
+      }
+    },
+    {
+      "id": "n36",
+      "position": {
+        "x": -248.39873146173656,
+        "y": 800
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Alice Gan"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n38",
+      "position": {
+        "x": 41.15352081364303,
+        "y": 1212.8101871742656
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Institution"
+      ],
+      "properties": {
+        "Institiution_Name": "Sekolah Menengah Kebangsaan Chung Hua"
+      }
+    },
+    {
+      "id": "n39",
+      "position": {
+        "x": 543.2412772627647,
+        "y": -68.30846054500705
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Course"
+      ],
+      "properties": {
+        "Course_Name": "Penilaian Menengah Rendah",
+        "from_date": "1984",
+        "to_date": "1986\r"
+      }
+    },
+    {
+      "id": "n42",
+      "position": {
+        "x": -248.39873146173656,
+        "y": 925
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Alice Gan"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n45",
+      "position": {
+        "x": 543.2412772627647,
+        "y": 56.69153945499295
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Course"
+      ],
+      "properties": {
+        "Course_Name": "Sijil Pelajaran Malaysia",
+        "from_date": "1987",
+        "to_date": "1989\r"
+      }
+    },
+    {
+      "id": "n48",
+      "position": {
+        "x": -248.39873146173656,
+        "y": 1050
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Alice Gan"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n54",
+      "position": {
+        "x": -248.39873146173656,
+        "y": 1175
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Ariff Johan"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n55",
+      "position": {
+        "x": -647.2690863579476,
+        "y": 1308.9285714285718
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Country"
+      ],
+      "properties": {
+        "country": "Singapore"
+      }
+    },
+    {
+      "id": "n56",
+      "position": {
+        "x": 41.15352081364303,
+        "y": 1525.310187174266
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Institution"
+      ],
+      "properties": {
+        "Institiution_Name": "Bukit Panjang Primary School"
+      }
+    },
+    {
+      "id": "n57",
+      "position": {
+        "x": 543.2412772627647,
+        "y": 306.6915394549935
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Course"
+      ],
+      "properties": {
+        "Course_Name": "Primary School Leaving Examination",
+        "from_date": "1978",
+        "to_date": "1983\r"
+      }
+    },
+    {
+      "id": "n60",
+      "position": {
+        "x": -248.39873146173656,
+        "y": 1300
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Ariff Johan"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n62",
+      "position": {
+        "x": 41.15352081364303,
+        "y": 1650.310187174266
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Institution"
+      ],
+      "properties": {
+        "Institiution_Name": "Maju Secondary School"
+      }
+    },
+    {
+      "id": "n63",
+      "position": {
+        "x": 543.2412772627647,
+        "y": 431.6915394549935
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Course"
+      ],
+      "properties": {
+        "Course_Name": "General Certificate of Education Ordinary Level",
+        "from_date": "1984",
+        "to_date": "1987\r"
+      }
+    },
+    {
+      "id": "n66",
+      "position": {
+        "x": -248.39873146173656,
+        "y": 1425
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Ariff Johan"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n68",
+      "position": {
+        "x": 41.15352081364303,
+        "y": 1775.310187174266
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Institution"
+      ],
+      "properties": {
+        "Institiution_Name": "Temasek Junior College"
+      }
+    },
+    {
+      "id": "n69",
+      "position": {
+        "x": 543.2412772627647,
+        "y": 556.6915394549935
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Course"
+      ],
+      "properties": {
+        "Course_Name": "General Certificate of Education Advanced Level",
+        "from_date": "1988",
+        "to_date": "1989\r"
+      }
+    },
+    {
+      "id": "n72",
+      "position": {
+        "x": -248.39873146173656,
+        "y": 1550
+      },
+      "caption": "",
+      "style": {},
+      "labels": [
+        "Ariff Johan"
+      ],
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n0",
+      "type": "STUDIED_IN",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n1"
+    },
+    {
+      "id": "n1",
+      "type": "STUDIED_IN",
+      "style": {},
+      "properties": {},
+      "fromId": "n6",
+      "toId": "n1"
+    },
+    {
+      "id": "n2",
+      "type": "STUDIED_IN",
+      "style": {},
+      "properties": {},
+      "fromId": "n12",
+      "toId": "n1"
+    },
+    {
+      "id": "n3",
+      "type": "STUDIED_IN",
+      "style": {},
+      "properties": {},
+      "fromId": "n18",
+      "toId": "n1"
+    },
+    {
+      "id": "n4",
+      "type": "STUDIED_IN",
+      "style": {},
+      "properties": {},
+      "fromId": "n24",
+      "toId": "n25"
+    },
+    {
+      "id": "n5",
+      "type": "STUDIED_IN",
+      "style": {},
+      "properties": {},
+      "fromId": "n30",
+      "toId": "n1"
+    },
+    {
+      "id": "n6",
+      "type": "STUDIED_IN",
+      "style": {},
+      "properties": {},
+      "fromId": "n36",
+      "toId": "n1"
+    },
+    {
+      "id": "n7",
+      "type": "STUDIED_IN",
+      "style": {},
+      "properties": {},
+      "fromId": "n42",
+      "toId": "n1"
+    },
+    {
+      "id": "n8",
+      "type": "STUDIED_IN",
+      "style": {},
+      "properties": {},
+      "fromId": "n48",
+      "toId": "n25"
+    },
+    {
+      "id": "n9",
+      "type": "STUDIED_IN",
+      "style": {},
+      "properties": {},
+      "fromId": "n54",
+      "toId": "n55"
+    },
+    {
+      "id": "n10",
+      "type": "STUDIED_IN",
+      "style": {},
+      "properties": {},
+      "fromId": "n60",
+      "toId": "n55"
+    },
+    {
+      "id": "n11",
+      "type": "STUDIED_IN",
+      "style": {},
+      "properties": {},
+      "fromId": "n66",
+      "toId": "n55"
+    },
+    {
+      "id": "n12",
+      "type": "STUDIED_IN",
+      "style": {},
+      "properties": {},
+      "fromId": "n72",
+      "toId": "n25"
+    },
+    {
+      "id": "n13",
+      "type": "STUDIED_AT",
+      "style": {},
+      "properties": {},
+      "fromId": "n18",
+      "toId": "n20"
+    },
+    {
+      "id": "n14",
+      "type": "STUDIED_AT",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n2"
+    },
+    {
+      "id": "n15",
+      "type": "STUDIED_AT",
+      "style": {},
+      "properties": {},
+      "fromId": "n6",
+      "toId": "n8"
+    },
+    {
+      "id": "n16",
+      "type": "STUDIED_AT",
+      "style": {},
+      "properties": {},
+      "fromId": "n12",
+      "toId": "n14"
+    },
+    {
+      "id": "n17",
+      "type": "STUDIED_AT",
+      "style": {},
+      "properties": {},
+      "fromId": "n24",
+      "toId": "n26"
+    },
+    {
+      "id": "n18",
+      "type": "STUDIED_AT",
+      "style": {},
+      "properties": {},
+      "fromId": "n30",
+      "toId": "n32"
+    },
+    {
+      "id": "n19",
+      "type": "STUDIED_AT",
+      "style": {},
+      "properties": {},
+      "fromId": "n36",
+      "toId": "n38"
+    },
+    {
+      "id": "n20",
+      "type": "STUDIED_AT",
+      "style": {},
+      "properties": {},
+      "fromId": "n42",
+      "toId": "n38"
+    },
+    {
+      "id": "n21",
+      "type": "STUDIED_AT",
+      "style": {},
+      "properties": {},
+      "fromId": "n48",
+      "toId": "n26"
+    },
+    {
+      "id": "n22",
+      "type": "STUDIED_AT",
+      "style": {},
+      "properties": {},
+      "fromId": "n54",
+      "toId": "n56"
+    },
+    {
+      "id": "n23",
+      "type": "STUDIED_AT",
+      "style": {},
+      "properties": {},
+      "fromId": "n60",
+      "toId": "n62"
+    },
+    {
+      "id": "n24",
+      "type": "STUDIED_AT",
+      "style": {},
+      "properties": {},
+      "fromId": "n66",
+      "toId": "n68"
+    },
+    {
+      "id": "n25",
+      "type": "STUDIED_AT",
+      "style": {},
+      "properties": {},
+      "fromId": "n72",
+      "toId": "n26"
+    },
+    {
+      "id": "n26",
+      "type": "SUBJECT_STUDIED",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n3"
+    },
+    {
+      "id": "n27",
+      "type": "SUBJECT_STUDIED",
+      "style": {},
+      "properties": {},
+      "fromId": "n6",
+      "toId": "n9"
+    },
+    {
+      "id": "n28",
+      "type": "SUBJECT_STUDIED",
+      "style": {},
+      "properties": {},
+      "fromId": "n12",
+      "toId": "n3"
+    },
+    {
+      "id": "n29",
+      "type": "SUBJECT_STUDIED",
+      "style": {},
+      "properties": {},
+      "fromId": "n18",
+      "toId": "n21"
+    },
+    {
+      "id": "n30",
+      "type": "SUBJECT_STUDIED",
+      "style": {},
+      "properties": {},
+      "fromId": "n24",
+      "toId": "n27"
+    },
+    {
+      "id": "n31",
+      "type": "SUBJECT_STUDIED",
+      "style": {},
+      "properties": {},
+      "fromId": "n30",
+      "toId": "n33"
+    },
+    {
+      "id": "n32",
+      "type": "SUBJECT_STUDIED",
+      "style": {},
+      "properties": {},
+      "fromId": "n36",
+      "toId": "n39"
+    },
+    {
+      "id": "n33",
+      "type": "SUBJECT_STUDIED",
+      "style": {},
+      "properties": {},
+      "fromId": "n42",
+      "toId": "n45"
+    },
+    {
+      "id": "n34",
+      "type": "SUBJECT_STUDIED",
+      "style": {},
+      "properties": {},
+      "fromId": "n48",
+      "toId": "n27"
+    },
+    {
+      "id": "n35",
+      "type": "SUBJECT_STUDIED",
+      "style": {},
+      "properties": {},
+      "fromId": "n54",
+      "toId": "n57"
+    },
+    {
+      "id": "n36",
+      "type": "SUBJECT_STUDIED",
+      "style": {},
+      "properties": {},
+      "fromId": "n60",
+      "toId": "n63"
+    },
+    {
+      "id": "n37",
+      "type": "SUBJECT_STUDIED",
+      "style": {},
+      "properties": {},
+      "fromId": "n66",
+      "toId": "n69"
+    },
+    {
+      "id": "n38",
+      "type": "SUBJECT_STUDIED",
+      "style": {},
+      "properties": {},
+      "fromId": "n72",
+      "toId": "n27"
+    }
+  ]
+}
