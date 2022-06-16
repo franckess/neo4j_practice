@@ -6,7 +6,7 @@ Tools required:
  - Neo4j Desktop (latest version)
  - Python (version 3.9.*)
  - Config files for Neo4j 
- - Plugins for Neo4j https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/4.4.0.1[click here to download]
+ - Plugins for Neo4j [click here to download](https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/4.4.0.1)
 
 
 INSTRUCTIONS:
@@ -14,21 +14,7 @@ INSTRUCTIONS:
 
 * sets up python virtual env
 * activates virtual env
-* pip installs dependencies 
-* sets up Flask API environment variable requirements
-* runs Flask API service
+* pip installs dependencies via `requirements.txt`
+* runs `Docker-Compose`
 
-If successful, you should see "Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)"
-
-2. using your preferred HTTP request method (I used postman for testing) you have access to the following request options
-
-  GET: http://localhost:5000/basic_api/persons
-  - get a list of all currently registered persons
-
-
-  PUT: http://localhost:5000/basic_api/persons?emp_id={{emp_num}}&name={{name}}
-  - create new person. If emp_id already exists in the database, it will update the name associated with that emp_id rather than duplicate the record
-
-
-  DELETE: http://localhost:5000/basic_api/persons
-  - Deletes all persons in the DB. 
+If successful, you should able to connect to the remote database `bolt://localhost:7999`
