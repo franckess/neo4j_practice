@@ -18,3 +18,5 @@ INSTRUCTIONS:
 * runs `Docker-Compose`
 
 If successful, you should able to connect to the remote database `bolt://localhost:7999`
+
+![](https://github.com/franckess/neo4j_practice/blob/master/figs/education_graph_1.png)
