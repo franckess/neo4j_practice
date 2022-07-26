@@ -1,11 +1,14 @@
 version: '3.8'
 services:
   neo4j:
+    container_name: neo4j
     image: neo4j:4.4.3-community
     ports:
       - 7888:7474
       - 7999:7687
     restart: unless-stopped
+    networks:
+      - db
     environment:
       - NEO4J_AUTH=neo4j/password
     volumes:
@@ -14,3 +17,33 @@ services:
       - ./db/logs:/logs
       - ./db/plugins:/plugins
       - ./db/scripts:/var/lib/neo4j/scripts
+  pgdatabase:
+    container_name: db
+    image: postgres:latest
+    restart: always
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=northwind
+    volumes:
+      - ./scripts/northwind_postgres.sql:/docker-entrypoint-initdb.d/northwind_postgres.sql
+    ports:
+      - 5432:5432
+    networks:
+      - db
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@admin.com
+      - PGADMIN_DEFAULT_PASSWORD=postgres
+      - PGADMIN_LISTEN_PORT=5050
+      - PGADMIN_CONFIG_SERVER_MODE=False
+    ports:
+      - 5050:5050
+    networks:
+      - db
+
+networks:
+  db:
+    driver: bridge
